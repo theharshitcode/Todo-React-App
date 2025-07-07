@@ -1,0 +1,52 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(216, 254, 213);
+}
+.container{
+  margin: auto;
+  height: 90vh;
+}
+
+.main{
+  margin-top: 20px;
+}
+
+.pup{
+  margin-right: 10px;
+}
+ 
+h1{
+  font-size: x-large;
+  text-align: center;
+  font-weight: 700;
+}
+
+.veiwtask{
+  width: 85%;
+  height: 80%;
+  margin: auto;
+}
+input{
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: none; */
+
+}
+
+input :active{
+  border: 2px solid green;
+}
+.todos , .todo{
+  margin-top: 12px;
+}
+.tak{
+  margin-right: 24px;
+}
+.buttons button{
+  padding:3px 13px   ;
+  border-radius: 5px;
+}

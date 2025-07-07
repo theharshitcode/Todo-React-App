@@ -1,0 +1,20 @@
+nav {
+    height: 7vh;
+}
+
+ul {
+    padding-top: 7px;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+nav ul :hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
